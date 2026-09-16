@@ -10,3 +10,4 @@ for boek in boeken:
     print(boek)
 
 print(f"Aantal boeken: {len(boeken)}")
+print("deze regel is nieuw")
