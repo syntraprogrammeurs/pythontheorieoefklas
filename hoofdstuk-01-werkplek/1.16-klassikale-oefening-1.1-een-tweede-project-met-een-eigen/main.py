@@ -1,6 +1,7 @@
 # Python basis — theoriebundel
 # Hoofdstuk 1 — Je Python-werkplek professioneel opzetten
 # Klassikale oefening 1.1 — Een tweede project met een eigen omgeving, uitwerking
+# dit is een extra regel
 
 boeken = ["De ontdekking van de hemel", "Het diner", "Turks fruit"]
 
