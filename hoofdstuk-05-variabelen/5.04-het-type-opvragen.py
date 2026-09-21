@@ -14,7 +14,7 @@ print(type(lengte))
 print(type(is_lid))
 print(type(partner))
 
-
+#wijziging
 # Verwachte uitvoer:
 # <class 'str'>
 # <class 'int'>
