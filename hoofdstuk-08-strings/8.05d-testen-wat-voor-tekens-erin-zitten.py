@@ -4,7 +4,8 @@
 #
 # .isdigit() is een eenvoudige manier om invoer te controleren vóór je int() gebruikt:
 
-tekst = "24"
+
+tekst = "24a"
 if tekst.isdigit():
     getal = int(tekst)
     print(getal * 2)

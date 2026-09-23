@@ -10,7 +10,7 @@ ruwe_invoer = "  anke peeters ;BRAM coppens;  Cato   Dhondt  "
 print("Ruw:", repr(ruwe_invoer))
 print()
 
-stukken = ruwe_invoer.split(";")
+stukken = ruwe_invoer.split(";") #["anke peeters ", "BRAM coppens", "  Cato   Dhondt  "]
 
 for stuk in stukken:
     naam = stuk.strip()

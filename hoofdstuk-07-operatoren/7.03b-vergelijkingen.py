@@ -3,7 +3,7 @@
 # 7.3 Vergelijkingen
 #
 # Vergelijken werkt ook op tekst, en dan geldt de alfabetische volgorde:
-
+         # False
 print("appel" < "banaan")     # True
 print("Appel" < "appel")      # True  — hoofdletters komen eerst
 print("appel" == "Appel")     # False
