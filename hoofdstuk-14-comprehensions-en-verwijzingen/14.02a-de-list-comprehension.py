@@ -8,5 +8,6 @@ netjes = [naam.capitalize() for naam in namen]
 print(netjes)
 
 
+
 # Verwachte uitvoer:
 # ['Anke', 'Bram', 'Cato']

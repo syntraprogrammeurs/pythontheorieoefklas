@@ -7,7 +7,7 @@
 
 boeken = [("Het diner", 288), ("Turks fruit", 175), ("De aanslag", 246)]
 
-met_min = [min(blz, 250) for titel, blz in boeken]
+met_min = [min(blz, 200) for titel, blz in boeken]
 met_keuze = [250 if blz > 250 else blz for titel, blz in boeken]
 
 print(met_min)
