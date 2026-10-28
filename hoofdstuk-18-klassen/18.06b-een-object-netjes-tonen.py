@@ -19,12 +19,13 @@ class Boek:
     def __repr__(self) -> str:
         """Wat je ziet in een lijst en tijdens het debuggen."""
         return f"Boek({self.titel!r}, {self.jaar})"
+    
 
 
 boek = Boek("Het diner", 2009)
-print(boek)
-print([boek, boek])
 
+print(boek, boek)
+print([boek, boek, boek])
 
 # Verwachte uitvoer:
 # Het diner (2009)

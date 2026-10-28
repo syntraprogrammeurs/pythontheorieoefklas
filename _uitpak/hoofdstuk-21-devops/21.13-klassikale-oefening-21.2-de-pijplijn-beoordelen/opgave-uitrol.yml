@@ -1,0 +1,19 @@
+# .github/workflows/uitrol.yml
+name: Uitrol
+
+on: [push]
+
+jobs:
+  uitrollen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Python
+        run: pip install ruff requests flask
+
+      - name: Tests
+        run: python controle.py || true
+
+      - name: Naar productie
+        run: scp -r . server:/var/www/leeslamp
